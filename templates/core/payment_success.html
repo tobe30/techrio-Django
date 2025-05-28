@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Payment Successful</h1>
+<p>Thank you, {{ payment.customer_name }}!</p>
+<p>Your payment for the <strong>{{ payment.plan }}</strong> plan was successful.</p>
+<p>Amount Paid: ₦{{ payment.amount }}</p>
+<p>Transaction Reference: {{ payment.payment_reference }}</p>
+
+
+</body>
+</html>
