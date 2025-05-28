@@ -39,12 +39,12 @@ def start_payment(request):
                 customer_name=name,
                 customer_email=email,
             )
-
+# https://fbf4-105-112-106-180.ngrok-free.app
             payload = {
                 "tx_ref": f"techrio-{payment.id}",
                 "amount": str(amount),
                 "currency": "NGN",
-                "redirect_url": f"https://fbf4-105-112-106-180.ngrok-free.app/payment-callback/{payment.id}/",
+                "redirect_url": f"https://techrio-django.onrender.com/payment-callback/{payment.id}/",
                 "customer": {
                     "email": email,
                     "name": name,

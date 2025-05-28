@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-tq1)*1s7i_!(&8ticl1l2qun*8)06=#d%v7hd_nh-i_144((6c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['techrio-django.onrender.com', '127.0.0.1', 'localhost', 'fbf4-105-112-106-180.ngrok-free.app']
 
 
 # Application definition
